@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --brand-1:#099d8d;
+    --brand-2: #14d9c4;
+    --brand-3: #ffffff;
+    --brand-4: #000000;
+    --brand-5: #54585a;
+    --brand-6:#b8b8b9;
+    --brand-bg: #f1f1f1;
+    --font-main:'Open Sans', sans-serif;
+    --font-second: 'Rubik', sans-serif;
+}
+header{
+    background-color: var(--brand-5)
+}
+.hero{
+    background-color: red;
+}
+.team{
+    background-color: var(--brand-1)
+}
+.more{
+    background-color: yellow;
+}
+.about-us{
+    background-color: pink;
+}
+.icons{
+    background-color: grey;
+}
+
+footer{
+    background-color: orange;
+}
