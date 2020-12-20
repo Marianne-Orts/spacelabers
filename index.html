@@ -4,54 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SPACELABERS</title>
-    <script src="https://kit.fontawesome.com/ff26b2c562.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ff26b2c562.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style/main.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style/main.css" />
   </head>
 
   <body>
     <!-- HEADER -->
     <header class="header">
-      <div class="header-team-logo">
-        <a class="list-a" href="https://adalab.es" title="Ir a página principal"
-          >SPACELABERS</a
-        >
-      </div>
+      <div class="container">
+        <div class="header-team-logo">
+          <a href="https://adalab.es" title="Ir a página principal"
+            >SPACELABERS</a
+          >
+        </div>
 
-      <div class="header-menu">
-        <nav class="menu-nav">
-          <ul class="list display-flex menu-list-items">
-            <li>
-              <a class="list-a" href="">EQUIPO</a>
-            </li>
-            <li>
-              <a class="list-a" href="">QUIENES SOMOS</a>
-            </li>
-            <li>
-              <a class="list-a" href="">CONTACTO</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="header-menu">
+          <nav class="menu">
+            <ul class="menu-list-items">
+              <li>
+                <a href="">EQUIPO</a>
+              </li>
+              <li>
+                <a href="">QUIENES SOMOS</a>
+              </li>
+              <li>
+                <a href="">CONTACTO</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
     <!-- HERO -->
     <main>
       <section class="hero">
-        <img class="hero-image" src="img/bg-image.jpg" alt="Foto equipo">
-        <div class="hero-motto">
-          <h1 class="claim">Houston, aquí no hay problema!</h1>
+        <img class="hero-image" src="" alt="Foto equipo" />
+        <div class="container hero-motto">
+          <h1 class="claim">Nuestro lema o claim</h1>
         </div>
       </section>
 
       <!-- Team -->
-      <section class="section">
+      <section class="container section team">
         <div>
-          <h2 class="sub-title team-1">EQUIPO</h2>
+          <h1 class="team-1">EQUIPO</h1>
         </div>
         <div>
           <p class="team-description">
@@ -63,35 +68,37 @@
         </div>
       </section>
       <!-- Fortalezas Debilidades -->
-      <section class="section bg-grey">
-        <div class="forta">
-          <h2 class="sub-title fortalezas">Fortalezas</h2>
-          <p class="parrafortalezas">
-            Somos un equipo de mujeres valientes, luchadoras y que les encanta
-            viajar. Venimos de lugares diferentes y tenemos distintos
-            aprendizajes. Todos ellos puestos en común, nos van a hacer superar
-            todos los retos que se pongan en nuestro camino. Vamos a hacer las
-            mejores webs del universo, y te invitamos a conocernos.
-          </p>
-        </div>
-        <div class="debil">
-          <h2 class="sub-title debilidades">Debilidades</h2>
-          <p class="parrafodebilidades">
-            Empezamos en un mundo nuevo y eso supone un reto muy importante para
-            nosotras. Somos muy trabajadoras y aunque vengan momentos difíciles,
-            estoy segura que los vamos a superar todas unidas. Tenemos mucho que
-            aprender, pero pensamos que podemos aportar muchas cosas al mundo de
-            la programación.
-          </p>
+      <section class="bg-grey more">
+        <div class="container section">
+          <div class="forta">
+            <h2 class="fortalezas">FORTALEZAS</h2>
+            <p class="parrafortalezas">
+              Somos un equipo de mujeres valientes, luchadoras y que les encanta
+              viajar. Venimos de lugares diferentes y tenemos distintos
+              aprendizajes. Todos ellos puestos en común, nos van a hacer
+              superar todos los retos que se pongan en nuestro camino. Vamos a
+              hacer las mejores webs del universo, y te invitamos a conocernos.
+            </p>
+          </div>
+          <div class="debil">
+            <h2 class="debilidades">DEBILIDADESS</h2>
+            <p class="parrafodebilidades">
+              Empezamos en un mundo nuevo y eso supone un reto muy importante
+              para nosotras. Somos muy trabajadoras y aunque vengan momentos
+              difíciles, estoy segura que los vamos a superar todas unidas.
+              Tenemos mucho que aprender, pero pensamos que podemos aportar
+              muchas cosas al mundo de la programación.
+            </p>
+          </div>
         </div>
       </section>
 
       <!-- ABOUT US -->
-      <section class="section">
-        <h2 class="sub-title">Quienes Somos</h2>
-        <div class="section-profile">
-          <img class="profile-img" src="img/foto-jech.jpg" alt="Imagen perfil Dandara">
-          <h3 class="names">Jech Fernández</h3>
+      <section class="container section about-us">
+        <h2>Quienes Somos</h2>
+        <div>
+          <h3>Jech Fernández</h3>
+          <img src="" alt="" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
@@ -104,17 +111,23 @@
           </p>
           <div class="social-icons">
             <ul class="list display-flex">
-              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
               <li class="separator"><i class="fas fa-circle"></i></li>
-              <li><a href=""><i class="fab fa-github-alt"></i></a></li>
+              <li>
+                <a href=""><i class="fab fa-github-alt"></i></a>
+              </li>
               <li class="separator"><i class="fas fa-circle"></i></li>
-              <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+              <li>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+              </li>
             </ul>
           </div>
         </div>
-        <div class="section-profile">
-           <img class="profile-img" src="img/foto-dan.png" alt="Imagen perfil Dandara">
-           <h3 class="names">Carmen Martínez</h3>
+        <div>
+          <h3>Carmen Martínez</h3>
+          <img src="" alt="">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
@@ -127,17 +140,23 @@
           </p>
           <div class="social-icons">
             <ul class="list display-flex">
-              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
               <li class="separator"><i class="fas fa-circle"></i></li>
-              <li><a href=""><i class="fab fa-github-alt"></i></a></li>
+              <li>
+                <a href=""><i class="fab fa-github-alt"></i></a>
+              </li>
               <li class="separator"><i class="fas fa-circle"></i></li>
-              <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+              <li>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+              </li>
             </ul>
           </div>
         </div>
-        <div class="section-profile">
-           <img class="profile-img" src="img/foto-mari.jpg" alt="Imagen perfil Marianne Orts">
-          <h3 class="names">Marianne Orts</h3>
+        <div>
+          <h3>Marianne Orts</h3>
+          <img src="" alt="" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
@@ -148,19 +167,26 @@
             vulputate odio ut enim. Augue neque gravida in fermentum et
             sollicitudin ac.
           </p>
+          
           <div class="social-icons">
             <ul class="list display-flex">
-              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
               <li class="separator"><i class="fas fa-circle"></i></li>
-              <li><a href=""><i class="fab fa-github-alt"></i></a></li>
+              <li>
+                <a href=""><i class="fab fa-github-alt"></i></a>
+              </li>
               <li class="separator"><i class="fas fa-circle"></i></li>
-              <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+              <li>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+              </li>
             </ul>
           </div>
         </div>
-        <div class="section-profile"></div>
-          <img class="profile-img" src="img/foto-dan.png" alt="Imagen perfil Dandara Almeida">
-          <h3 class="names">Dandara Almeida</h3>
+        <div>
+          <h3>Dandara Almeida</h3>
+          <img src="" alt="" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
@@ -173,11 +199,17 @@
           </p>
           <div class="social-icons">
             <ul class="list display-flex">
-              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
               <li class="separator"><i class="fas fa-circle"></i></li>
-              <li><a href=""><i class="fab fa-github-alt"></i></a></li>
+              <li>
+                <a href=""><i class="fab fa-github-alt"></i></a>
+              </li>
               <li class="separator"><i class="fas fa-circle"></i></li>
-              <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+              <li>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -187,7 +219,7 @@
     <footer class="footer">
       <div class="section">
         <span class="copy">Spacelabers &copy; 2020</span>
-        
+
         <nav class="footer-nav">
           <ul class="list">
             <li>EQUIPO</li>
@@ -195,7 +227,9 @@
             <li>CONTACTO</li>
           </ul>
         </nav>
-        <a href="https://adalab.es/"><img src="img/logo-adalab.png" alt="Logo Adalab" /></a>
+        <a href="https://adalab.es/"
+          ><img src="img/logo-adalab.png" alt="Logo Adalab"
+        /></a>
       </div>
     </footer>
   </body>
