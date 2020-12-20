@@ -14,25 +14,76 @@
     --font-main:'Open Sans', sans-serif;
     --font-second: 'Rubik', sans-serif;
 }
-header{
-    background-color: var(--brand-5)
-}
-.hero{
-    background-color: red;
-}
-.team{
-    background-color: var(--brand-1)
-}
-.more{
-    background-color: yellow;
-}
-.about-us{
-    background-color: pink;
-}
-.icons{
-    background-color: grey;
+
+.container{
+    margin: 0 15px;
+
 }
 
-footer{
-    background-color: orange;
+.section{
+    text-align: center;
+    font-family: var(--font-main);
+    color: var(--brand-4);
+    font-size: 1em;
+    font-weight: 300;
 }
+
+.display-flex{
+    display: flex;
+}
+
+/* FORTALEZAS */
+.bg-grey{
+    background-color: var(--brand-6);
+}
+
+/*  PERFILES */
+social-icons{
+    width: 124px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 5px;
+    color: var(--brand-1);
+
+}
+.fa-circle{
+    font-size: 3px;
+}
+
+.list{
+    padding: 5px;
+}
+
+.list li{
+    flex-basis: calc(20% - 5px);
+    list-style: none;
+}
+.list li.separator{
+    display: inline-flex;
+    margin: 8px 0 0 8px;
+}
+
+.list li a{
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+.footer{
+    border-top: 1px solid var(--brand-6);
+ }
+ .footer-nav{
+     color: var(--brand-5);
+     font-weight: 400;
+     font-family: var(--font-main);
+     padding: 10px;
+ }
+ .fab {
+     color: var(--brand-5);
+ }
+ 
+ .copy{
+     color: var(--brand-6);
+     font-size: 14px;
+ }
+ 
