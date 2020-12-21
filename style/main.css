@@ -83,7 +83,7 @@ p {
   font-size: 1em;
   font-weight: 300;
   line-height: 1.4;
- */
+ 
 }
 .team {
   padding-top: 40px;
@@ -117,7 +117,7 @@ p {
   color: var(--brand-4);
   text-align: center;
   font-size: 18px;
-  ont-weight: 600;
+  font-weight: 600;
   font-stretch: normal;
   font-style: normal;
 }
@@ -244,6 +244,4 @@ p {
     margin: 30px 142px;
   }
   .header {
-    padding: 0 142px;
-  }
-}
+    padding: 0 142px; }
