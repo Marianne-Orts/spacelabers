@@ -19,13 +19,6 @@
   margin: 0 15px;
 }
 
-.section {
-  text-align: center;
-  font-family: var(--font-main);
-  color: var(--brand-4);
-  font-size: 1em;
-  font-weight: 300;
-}
 p {
   color: var(--brand-5);
   font-family: var(--font-main);
@@ -36,64 +29,76 @@ p {
 }
 
 /*Team*/
-.team-1 {
-  color: #14d9c4;
-  font-family: var(--font-main);
+.section{
+    text-align: center;
+    font-family: var(--font-main);
+    color: var(--brand-4);
+    font-size: 1em;
+    font-weight: 300;
 }
+
+.title{
+    font-family: var(--font-second);
+    color: var(--brand-2);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
 .team-description1 {
   margin-top: 15px;
 }
 
 /* FORTALEZAS */
 .bg-grey {
-  background-color: var(--brand-bg);
+  background-color: var(--brand-6);
 }
 
 /*  PERFILES */
-social-icons {
-  width: 124px;
-  height: 30px;
-  margin: 0 auto;
-  padding: 5px;
-  color: var(--brand-1);
-}
-.fa-circle {
-  font-size: 3px;
+.profile-img{
+    width: 180px;
+    border: 4px solid var(--brand-5);
+    border-radius: 10px;
+    margin: 10px 0;
 }
 
-.list {
-  padding: 5px;
+.names{
+    font-family: var(--font-main);
+    margin: 10px;
+    font-weight: 500;
 }
 
-.list li {
-  flex-basis: calc(20% - 5px);
-  list-style: none;
-}
-.list li.separator {
-  display: inline-flex;
-  margin: 8px 0 0 8px;
-}
-
-.list li a {
-  text-decoration: none;
+.social{
+    display: inline-flex;  
+    justify-content: space-between; 
+    list-style: none;
+    margin-bottom: 15px;
+ }
+ .social li{
+     margin: 15px 10px 0
+ }
+ .social li:last-of-type{
+    margin-right: 0;
+ }
+ .fa-circle{
+    font-size: 3px;
 }
 
 /* FOOTER */
-
-.footer {
-  border-top: 1px solid var(--brand-6);
-}
-.footer-nav {
-  color: var(--brand-5);
-  font-weight: 400;
-  font-family: var(--font-main);
-  padding: 10px;
-}
-.fab {
-  color: var(--brand-5);
-}
-
-.copy {
-  color: var(--brand-6);
-  font-size: 14px;
-}
+.footer{
+    border-top: 1px solid var(--brand-6);
+    padding-top: 30px;
+ }
+ .footer-nav{
+     color: var(--brand-5);
+     font-weight: 400;
+     font-family: var(--font-main);
+     padding: 10px;
+ }
+ .fab {
+     color: var(--brand-5);
+ }
+ 
+ .copy{
+     color: var(--brand-6);
+     font-size: 14px;
+ }
