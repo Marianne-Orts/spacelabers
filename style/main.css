@@ -27,6 +27,10 @@
     justify-content: space-between;
 }
 
+p{
+  margin-bottom: 10px;
+}
+
 /* SECCION */
 .section{
     text-align: center;
@@ -34,6 +38,7 @@
     color: var(--brand-4);
     font-size: 1em;
     font-weight: 300;
+    line-height: 1.4;
 }
 
 .title{
@@ -72,12 +77,16 @@
     justify-content: space-between; 
     list-style: none;
     margin-bottom: 15px;
+    color: var(--brand-1);
  }
  .social li{
      margin: 15px 10px 0
  }
  .social li:last-of-type{
     margin-right: 0;
+ }
+ .social li a{
+  color: var(--brand-1);
  }
  .fa-circle{
     font-size: 3px;
