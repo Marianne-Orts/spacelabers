@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0 15px;
   padding: 0;
 }
 
@@ -15,9 +15,9 @@
   --font-second: "Rubik", sans-serif;
 }
 
-.container {
+/*.container {
   margin: 0 15px;
-}
+}*/
 
 .section {
   text-align: center;
@@ -30,8 +30,7 @@ p {
   color: var(--brand-5);
   font-family: var(--font-main);
 }
-
-.display-flex {
+*/ .display-flex {
   display: flex;
 }
 
