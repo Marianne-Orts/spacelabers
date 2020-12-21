@@ -15,16 +15,15 @@
   <body>
     <!-- HEADER -->
     <header class="header">
-      <div class="container">
-        <div class="header-team-logo">
+        <div class="container header-team-logo">
           <a href="https://adalab.es" title="Ir a página principal"
             >SPACELABERS</a
           >
         </div>
 
-        <div class="header-menu">
-          <nav class="menu">
-            <ul class="menu-list-items">
+        <div class="container header-menu">
+          <nav>
+            <ul class="container menu-list-items">
               <li>
                 <a href="">EQUIPO</a>
               </li>
@@ -37,20 +36,16 @@
             </ul>
           </nav>
         </div>
-      </div>
     </header>
 
     <!-- HERO -->
     <main>
       <section class="hero">
-        <img class="hero-image" src="" alt="Foto equipo" />
-        <div class="container hero-motto">
-          <h1 class="claim">Nuestro lema o claim</h1>
-        </div>
+          <h1 class="claim container">¡Houston, aqui no tenemos problemas!</h1>
       </section>
 
       <!-- Team -->
-      <section class="container section team">
+      <section id="team" class="container section team">
           <h2 class="title">Equipo</h2>
           <p>
           ¿Quién no ha pensado alguna vez en cómo sería la experiencia de VIAJAR AL ESPACIO? Es el sueño de muchos y el privilegio de solo unos pocos.</p>
@@ -86,7 +81,7 @@
       </section>
 
       <!-- ABOUT US -->
-      <section class="container section about-us">
+      <section id="about-us" class="container section about-us">
         <h2 class="title">Quienes Somos</h2>
         <div>
           <img class="profile-img" src="img/foto-jech.jpeg" alt="Imagen perfil Jech">
@@ -105,9 +100,9 @@
             <ul class="social">
               <li><a href="https://twitter.com/?lang=es"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
               <li><i class="fa fa-circle" aria-hidden="true"></i></li>
-              <li><a href="https://github.com/jechfernandez"></a><i class="fa fa-github-alt" aria-hidden="true"></i></li>
+              <li><a href="https://github.com/jechfernandez"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
               <li><i class="fa fa-circle" aria-hidden="true"></i></li>
-              <li><a href="www.linkedin.com/in/jechfernandez"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/jechfernandez"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             </ul>
           </div>
         </div>
@@ -189,10 +184,10 @@
         <span class="copy">Spacelabers &copy; 2020</span>
 
         <nav class="footer-nav">
-          <ul class="list">
-            <li>EQUIPO</li>
-            <li>QUIÉNES SOMOS</li>
-            <li>CONTACTO</li>
+          <ul>
+            <li><a href="#team">EQUIPO</a></li>
+            <li><a href="#about-us">QUIÉNES SOMOS</a></li>
+            <li><a href="index.html">CONTACTO</a></li>
           </ul>
         </nav>
         <a href="https://adalab.es/"
