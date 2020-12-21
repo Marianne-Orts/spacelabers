@@ -58,6 +58,7 @@
     font-size: 15px;
     padding: 16px 8px;
     display: block;
+    white-space: nowrap;
   }
 
 
@@ -109,6 +110,7 @@ p{
     z-index: 2;
     bottom: 0;
     transform: translateY(80px);
+    padding: 15px;
 
 }
 
@@ -116,6 +118,10 @@ p{
     font-family: var(--font-main);
     color: var(--brand-4);
     text-align: center;
+    font-size: 18px;
+    ont-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
 }
 
 .title{
@@ -202,4 +208,40 @@ p{
  .copy{
      color: var(--brand-6);
      font-size: 14px;
+}
+
+@media all and (min-width:768px){
+    .header{
+        flex-direction: row;
+        padding: 0 45px;
+    }
+    .header-menu{
+        background-color: transparent;
+    }
+    .header-team-logo{
+        justify-content: flex-start;
+    }
+    .rectangle{
+        opacity: 0.9;
+        transform: translateY(30px);
+        padding: 15px 30px;
+    }
+    .container{
+        margin: 30px 46px;
+    }
+}
+
+@media all and (min-width:1200px){
+    .hero-image{
+        height: 550px;
+    }
+    .header-menu{
+        width: auto;
+    }
+    .container{
+        margin: 30px 142px;
+    }
+    .header{
+        padding: 0 142px;
+    }
 }
