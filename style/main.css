@@ -51,7 +51,8 @@
     display: inline;
     justify-content: space-between;
     align-items: center;
-    margin: 0 15px;
+    margin: 0 5px;
+    
 }
 
 
@@ -90,12 +91,12 @@
 
 }
 
-/*.hero-motto{
+.hero-motto{
     position: absolute
     z-index: 2;
     color: var(--brand-4);
     font: var(--font-main);
-}*/
+}
 
 .title{
     font-family: var(--font-second);
