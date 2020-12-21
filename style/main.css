@@ -136,7 +136,7 @@ p {
 
 /* FORTALEZAS */
 .bg-grey {
-  background-color: var(--brand-6);
+  background-color: var(--brand-bg);
 }
 .fortalezas {
   margin-top: 0;
