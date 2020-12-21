@@ -1,5 +1,5 @@
 * {
-  margin: 0 15px;
+  margin: 0;
   padding: 0;
 }
 
@@ -15,9 +15,9 @@
   --font-second: "Rubik", sans-serif;
 }
 
-/*.container {
+.container {
   margin: 0 15px;
-}*/
+}
 
 p {
   color: var(--brand-5);
@@ -28,19 +28,19 @@ p {
 }
 
 /*Team*/
-.section{
-    text-align: center;
-    font-family: var(--font-main);
-    color: var(--brand-4);
-    font-size: 1em;
-    font-weight: 300;
+.section {
+  text-align: center;
+  font-family: var(--font-main);
+  color: var(--brand-4);
+  font-size: 1em;
+  font-weight: 300;
 }
 
-.title{
-    font-family: var(--font-second);
-    color: var(--brand-2);
-    text-transform: uppercase;
-    margin-bottom: 10px;
+.title {
+  font-family: var(--font-second);
+  color: var(--brand-2);
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .team-description1 {
@@ -53,51 +53,51 @@ p {
 }
 
 /*  PERFILES */
-.profile-img{
-    width: 180px;
-    border: 4px solid var(--brand-5);
-    border-radius: 10px;
-    margin: 10px 0;
+.profile-img {
+  width: 180px;
+  border: 4px solid var(--brand-5);
+  border-radius: 10px;
+  margin: 10px 0;
 }
 
-.names{
-    font-family: var(--font-main);
-    margin: 10px;
-    font-weight: 500;
+.names {
+  font-family: var(--font-main);
+  margin: 10px;
+  font-weight: 500;
 }
 
-.social{
-    display: inline-flex;  
-    justify-content: space-between; 
-    list-style: none;
-    margin-bottom: 15px;
- }
- .social li{
-     margin: 15px 10px 0
- }
- .social li:last-of-type{
-    margin-right: 0;
- }
- .fa-circle{
-    font-size: 3px;
+.social {
+  display: inline-flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 15px;
+}
+.social li {
+  margin: 15px 10px 0;
+}
+.social li:last-of-type {
+  margin-right: 0;
+}
+.fa-circle {
+  font-size: 3px;
 }
 
 /* FOOTER */
-.footer{
-    border-top: 1px solid var(--brand-6);
-    padding-top: 30px;
- }
- .footer-nav{
-     color: var(--brand-5);
-     font-weight: 400;
-     font-family: var(--font-main);
-     padding: 10px;
- }
- .fab {
-     color: var(--brand-5);
- }
- 
- .copy{
-     color: var(--brand-6);
-     font-size: 14px;
- }
+.footer {
+  border-top: 1px solid var(--brand-6);
+  padding-top: 30px;
+}
+.footer-nav {
+  color: var(--brand-5);
+  font-weight: 400;
+  font-family: var(--font-main);
+  padding: 10px;
+}
+.fab {
+  color: var(--brand-5);
+}
+
+.copy {
+  color: var(--brand-6);
+  font-size: 14px;
+}
