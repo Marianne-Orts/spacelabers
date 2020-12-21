@@ -10,7 +10,7 @@
   --brand-3: #ffffff;
   --brand-4: #000000;
   --brand-5: #54585a;
-  --brand-6: #b8b8b932;
+  --brand-6: #b8b8b9;
   --brand-bg: #f1f1f1;
   --font-main: "Open Sans", sans-serif;
   --font-second: "Rubik", sans-serif;
@@ -198,6 +198,10 @@ p {
   font-weight: 400;
   font-family: var(--font-main);
   padding: 10px;
+}
+.footer-nav a{
+  text-decoration: none;
+ color: var(--brand-5);
 }
 .fab {
   color: var(--brand-5);
