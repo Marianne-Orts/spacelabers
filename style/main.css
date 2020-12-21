@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -16,24 +17,27 @@
 }
 
 .container {
-  margin: 0 15px;
+  margin: 30px 15px;
+  padding: 15px 0;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 p {
-  color: var(--brand-5);
-  font-family: var(--font-main);
-}
-*/ .display-flex {
-  display: flex;
+  margin-bottom: 10px;
 }
 
-/*Team*/
+/* SECCION */
 .section {
   text-align: center;
   font-family: var(--font-main);
   color: var(--brand-4);
   font-size: 1em;
   font-weight: 300;
+  line-height: 1.4;
 }
 
 .title {
@@ -42,9 +46,10 @@ p {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-
-.team-description1 {
-  margin-top: 15px;
+.title-2 {
+  font-family: var(--font-second);
+  color: var(--brand-1);
+  margin-top: 25px;
 }
 
 /* FORTALEZAS */
@@ -71,12 +76,16 @@ p {
   justify-content: space-between;
   list-style: none;
   margin-bottom: 15px;
+  color: var(--brand-1);
 }
 .social li {
   margin: 15px 10px 0;
 }
 .social li:last-of-type {
   margin-right: 0;
+}
+.social li a {
+  color: var(--brand-1);
 }
 .fa-circle {
   font-size: 3px;
