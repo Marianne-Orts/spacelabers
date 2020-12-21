@@ -15,6 +15,44 @@
     --font-second: 'Rubik', sans-serif;
 }
 
+.header {
+        position: relative;
+        width: 100%;
+        height: 50px;
+        top: 0;
+        left: 0;
+        background: var(--brand-1);
+        z-index: 1;
+        opacity: 0.95;
+      }
+
+.logo{
+    margin-left: 80px;
+    height: 50px;
+}
+
+.list{
+    display: flex;
+        width: 100vw;
+        height: 30px;
+        top: 0;
+        left: 0;
+        background: var(--brand-2);
+        z-index: 1;
+        opacity: 0.95;
+      }
+
+
+
+.list-item {
+    font-family: var(--font-second);
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+}
+
+
 .container{
     margin: 0 15px;
 
@@ -27,6 +65,29 @@
     font-size: 1em;
     font-weight: 300;
 }
+/*HERO*/
+.hero-image{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    
+
+}
+
+.rectangle{
+    background-color: white;
+    opacity: 0.75;
+    position: absolute;
+    z-index: 2;
+
+}
+
+/*.hero-motto{
+    position: absolute
+    z-index: 2;
+    color: var(--brand-4);
+    font: var(--font-main);
+}*/
 
 .display-flex{
     display: flex;
