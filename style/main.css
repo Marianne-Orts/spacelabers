@@ -72,16 +72,18 @@
 
 p {
   margin-bottom: 10px;
+
 }
 
 /* SECCION */
 .section {
   text-align: center;
   font-family: var(--font-main);
-  color: var(--brand-4);
+  color: var(--brand-5);
   font-size: 1em;
   font-weight: 300;
   line-height: 1.4;
+ */
 }
 .team {
   padding-top: 40px;
@@ -224,7 +226,7 @@ p {
   }
   .container {
     margin: 30px 46px;
-  }
+  
 }
 
 @media all and (min-width: 1200px) {
