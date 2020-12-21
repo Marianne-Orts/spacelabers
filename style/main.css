@@ -1,18 +1,20 @@
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
-    --brand-1:#099d8d;
-    --brand-2: #14d9c4;
-    --brand-3: #ffffff;
-    --brand-4: #000000;
-    --brand-5: #54585a;
-    --brand-6:#b8b8b9;
-    --brand-bg: #f1f1f1;
-    --font-main:'Open Sans', sans-serif;
-    --font-second: 'Rubik', sans-serif;
+  --brand-1: #099d8d;
+  --brand-2: #14d9c4;
+  --brand-3: #ffffff;
+  --brand-4: #000000;
+  --brand-5: #54585a;
+  --brand-6: #b8b8b9;
+  --brand-bg: #f1f1f1;
+  --font-main: "Open Sans", sans-serif;
+  --font-second: "Rubik", sans-serif;
 }
 
 .header {
@@ -54,10 +56,16 @@
 
 
 .container{
-    margin: 0 15px;
-
+    margin: 30px 15px;
+    padding: 15px 0;
 }
 
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* SECCION */
 .section{
     text-align: center;
     font-family: var(--font-main);
@@ -89,49 +97,57 @@
     font: var(--font-main);
 }*/
 
-.display-flex{
-    display: flex;
+.title{
+    font-family: var(--font-second);
+    color: var(--brand-2);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.title-2{
+    font-family: var(--font-second);
+    color: var(--brand-1);
+    margin-top: 25px;
 }
 
 /* FORTALEZAS */
-.bg-grey{
-    background-color: var(--brand-6);
+.bg-grey {
+  background-color: var(--brand-6);
 }
 
 /*  PERFILES */
-social-icons{
-    width: 124px;
-    height: 30px;
-    margin: 0 auto;
-    padding: 5px;
-    color: var(--brand-1);
-
+.profile-img{
+    width: 180px;
+    border: 4px solid var(--brand-5);
+    border-radius: 10px;
+    margin: 10px 0;
 }
-.fa-circle{
+
+.names{
+    font-family: var(--font-main);
+    margin: 10px;
+    font-weight: 500;
+}
+
+.social{
+    display: inline-flex;  
+    justify-content: space-between; 
+    list-style: none;
+    margin-bottom: 15px;
+ }
+ .social li{
+     margin: 15px 10px 0
+ }
+ .social li:last-of-type{
+    margin-right: 0;
+ }
+ .fa-circle{
     font-size: 3px;
 }
 
-.list{
-    padding: 5px;
-}
-
-.list li{
-    flex-basis: calc(20% - 5px);
-    list-style: none;
-}
-.list li.separator{
-    display: inline-flex;
-    margin: 8px 0 0 8px;
-}
-
-.list li a{
-    text-decoration: none;
-}
-
 /* FOOTER */
-
 .footer{
     border-top: 1px solid var(--brand-6);
+    padding-top: 30px;
  }
  .footer-nav{
      color: var(--brand-5);
@@ -146,5 +162,4 @@ social-icons{
  .copy{
      color: var(--brand-6);
      font-size: 14px;
- }
- 
+}
