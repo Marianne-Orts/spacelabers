@@ -11,7 +11,7 @@
   --brand-3: #ffffff;
   --brand-4: #000000;
   --brand-5: #54585a;
-  --brand-6: #b8b8b9;
+  --brand-6: #b8b8b932;
   --brand-bg: #f1f1f1;
   --font-main: "Open Sans", sans-serif;
   --font-second: "Rubik", sans-serif;
@@ -71,6 +71,10 @@
     justify-content: space-between;
 }
 
+p{
+  margin-bottom: 10px;
+}
+
 /* SECCION */
 .section{
     text-align: center;
@@ -78,6 +82,7 @@
     color: var(--brand-4);
     font-size: 1em;
     font-weight: 300;
+    line-height: 1.4;
 }
 .team{
     padding-top: 40px;
@@ -129,6 +134,21 @@
 .bg-grey {
   background-color: var(--brand-6);
 }
+.fortalezas{
+    margin-top: 0;
+}
+.containertriangle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 1em solid transparent;
+    border-top: 2em solid var(--brand-3);
+    border-right: 1em solid transparent;
+    }
 
 /*  PERFILES */
 .profile-img{
@@ -149,12 +169,16 @@
     justify-content: space-between; 
     list-style: none;
     margin-bottom: 15px;
+    color: var(--brand-1);
  }
  .social li{
      margin: 15px 10px 0
  }
  .social li:last-of-type{
     margin-right: 0;
+ }
+ .social li a{
+  color: var(--brand-1);
  }
  .fa-circle{
     font-size: 3px;
