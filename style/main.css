@@ -75,7 +75,6 @@ html {
 
 p {
   margin-bottom: 10px;
-
 }
 
 /* SECCION */
@@ -86,7 +85,6 @@ p {
   font-size: 1em;
   font-weight: 300;
   line-height: 1.4;
- 
 }
 .team {
   padding-top: 40px;
@@ -134,8 +132,7 @@ p {
 .title-2 {
   font-family: var(--font-second);
   color: var(--brand-1);
-  margin-top: 25px;
-}
+  }
 
 /* FORTALEZAS */
 .bg-grey {
@@ -202,9 +199,9 @@ p {
   font-family: var(--font-main);
   padding: 10px;
 }
-.footer-nav a{
+.footer-nav a {
   text-decoration: none;
- color: var(--brand-5);
+  color: var(--brand-5);
 }
 .fab {
   color: var(--brand-5);
@@ -233,9 +230,8 @@ p {
   }
   .container {
     margin: 30px 46px;
-  
+  }
 }
-
 @media all and (min-width: 1200px) {
   .hero-image {
     height: 550px;
@@ -247,4 +243,6 @@ p {
     margin: 30px 142px;
   }
   .header {
-    padding: 0 142px; }
+    padding: 0 142px;
+  }
+}
