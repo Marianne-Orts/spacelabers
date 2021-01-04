@@ -256,7 +256,7 @@ p {
   .logo-footer {
     position: absolute;
     top: 20px;
-    left: -30px;
+    left: -20px;
     margin-bottom: 20px; } }
 
 @media all and (min-width: 1200px) {
