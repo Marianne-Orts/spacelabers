@@ -164,7 +164,7 @@
   
   .names {
     font-family: var(--font-main);
-    margin: 10px;
+    margin-bottom: 10px;
     font-weight: 500;
   }
   
@@ -199,6 +199,9 @@
     font-family: var(--font-main);
     padding: 10px;
   }
+  .footer-nav ul{
+    list-style: none;
+  }
   .footer-nav a {
     text-decoration: none;
     color: var(--brand-5);
@@ -206,13 +209,13 @@
   .fab {
     color: var(--brand-5);
   }
-  
+
   .copy {
     color: var(--brand-6);
     font-size: 14px;
   }
   
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 768px) { //TABLET
     .header {
       flex-direction: row;
       padding: 0 45px;
@@ -247,8 +250,60 @@
     .debilidades {
       padding-left: 15px;
     }
+    .article{
+      display: flex;
+      justify-content: space-around;
+      margin: 30px auto;
+    }
+    .article-text{
+      flex-basis: calc(60% - 5px);
+      text-align: left;
+    }
+    .profile-img {
+      width: 30%;
+      height: 30%;
+      max-width: 200px;
+    }
+    .article-right{
+      flex-direction: row-reverse;
+    }
+    .article-text-right{
+      text-align: right;
+    }
+
+    .footer {
+      padding: 0;
+    }
+    
+    .footer-nav ul{
+      list-style: none;
+    }
+    
+    .footer_media-query{
+      position: relative;
+    }
+    .footer-nav{
+      display:inline-flex;
+      line-height: 30px;
+      position: relative;
+      top: -20px;
+      float: right;
+      text-align: right;
+    }
+    .copy{
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .logo-footer{
+      position: absolute;
+      top: 20px;
+      left: -30px;
+      margin-bottom: 20px;
+    }
+
   }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 1200px) { //DESKTOP
     .hero-image {
       height: 550px;
     }
@@ -270,6 +325,9 @@
     }
     .debilidades {
       padding-left: 22.5px;
+    }
+    .article-text{
+      flex-basis: calc(70% - 5px);
     }
   }
   
