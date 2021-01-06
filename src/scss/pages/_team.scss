@@ -1,0 +1,28 @@
+/* SECCION */
+.section {
+    @include sectionClass();
+  }
+  
+  .team {
+    padding-top: 40px;
+  }
+  
+  /* FORTALEZAS */
+  .bg-grey {
+    background-color: var(--brand-bg);
+  }
+  .fortalezas-debilidades {
+    margin-top: 0;
+  }
+  .containertriangle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 1em solid transparent;
+    border-top: 2em solid var(--brand-3);
+    border-right: 1em solid transparent;
+  }
