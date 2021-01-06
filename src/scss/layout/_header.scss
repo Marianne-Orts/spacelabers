@@ -1,5 +1,56 @@
-.page__header {
+.header {
+  width: 100%;
+  background-color: var(--brand-1);
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+.header-menu {
+  width: 100%;
+  text-align: center;
+  background-color: var(--brand-2);
+}
+.menu-list-items {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 8px;
+}
+.header-team-logo a,
+.header-menu a {
+  color: var(--brand-3);
+  text-decoration: none;
+  font-family: var(--font-second);
+  font-weight: 500;
+}
+
+.header-team-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+}
+
+.menu-list-items a {
+  font-size: 15px;
+  padding: 16px 8px;
+  display: block;
+  white-space: nowrap;
+}
+
+.container {
+  @include containerClass();
+}
+
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  margin-bottom: 10px;
 }
