@@ -1,0 +1,34 @@
+/*  PROFILES - Quienes Somos */
+.profile-img {
+    width: 180px;
+    border: 4px solid var(--brand-5);
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  
+  .names {
+    font-family: var(--font-main);
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .social {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 15px;
+    color: var(--brand-1);
+  }
+  .social li {
+    margin: 15px 10px 0;
+  }
+  .social li:last-of-type {
+    margin-right: 0;
+  }
+  .social li a {
+    color: var(--brand-1);
+  }
+  .fa-circle {
+    font-size: 3px;
+  }
+  
