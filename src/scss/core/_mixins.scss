@@ -1,25 +1,25 @@
-@mixin sectionClass(){
-    text-align: center;
-    font-family: var(--font-main);
-    color: var(--brand-5);
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 1.4;
+@mixin sectionClass() {
+  text-align: center;
+  font-family: var(--font-main);
+  color: var(--brand-5);
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.4;
 }
 
-@mixin containerClass(){
+@mixin containerClass() {
   margin: 30px 15px;
   padding: 15px 0;
 }
 
-@mixin titleClass(){
+@mixin titleClass() {
   font-family: var(--font-second);
   color: var(--brand-2);
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-@mixin title-2Class(){
+@mixin title-2Class() {
   font-family: var(--font-second);
   color: var(--brand-1);
 }
@@ -61,6 +61,7 @@
   .debilidades {
     padding-left: 15px;
   }
+  /*ABOUT US*/
   .article {
     display: flex;
     justify-content: space-around;
@@ -81,6 +82,8 @@
   .article-text-right {
     text-align: right;
   }
+
+  /*FOOTER*/
 
   .footer {
     padding: 0;
