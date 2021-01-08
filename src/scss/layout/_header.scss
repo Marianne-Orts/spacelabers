@@ -19,6 +19,7 @@
     &-link{
       text-decoration: none;
       font-family: var(--font-second);
+      text-transform: uppercase;
       font-weight: 500;
       color: var(--brand-3);
     }
@@ -27,6 +28,7 @@
   &_nav {
     width: 100%;
     text-align: center;
+    text-transform: uppercase;
     background-color: var(--brand-2);
     font-size: 15px;
     padding: 16px 8px;
@@ -53,6 +55,7 @@
 
   
 }
+
 li{
   display: inline;
 }
