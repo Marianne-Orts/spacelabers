@@ -1,28 +1,32 @@
 /* SECCION */
 .section {
-    @include sectionClass();
-  }
-  
-  .team {
-    padding-top: 40px;
-  }
-  
-  /* FORTALEZAS */
-  .bg-grey {
-    background-color: var(--brand-bg);
-  }
-  .fortalezas-debilidades {
-    margin-top: 0;
-  }
-  .containertriangle {
+  @include sectionClass();
+}
+
+.team {
+  padding-top: 40px;
+}
+
+/* FORTALEZAS Y DEBILIDADES */
+.fortalezasydebilidades {
+  background-color: $colorBrand-7;
+
+  &__containertriangle {
     width: 100%;
     display: flex;
     justify-content: center;
+
+    &--triangle {
+      width: 0;
+      height: 0;
+      border-left: 1em solid transparent;
+      border-top: 2em solid $colorBrand-3;
+      border-right: 1em solid transparent;
+    }
   }
-  .triangle {
-    width: 0;
-    height: 0;
-    border-left: 1em solid transparent;
-    border-top: 2em solid var(--brand-3);
-    border-right: 1em solid transparent;
+
+  &__contenidos {
+    margin-top: 0;
   }
+}
+
