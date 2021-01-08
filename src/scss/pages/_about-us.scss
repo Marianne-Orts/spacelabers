@@ -1,5 +1,9 @@
 /*  PROFILES - Quienes Somos */
 
+#about-us {
+  scroll-margin-top: 105px;
+}
+
 .article__img {
   width: 180px;
   border: 4px solid $colorBrand-5;
@@ -40,13 +44,12 @@
 @media all and (min-width: 768px) {
   .section__article {
     padding: 10px;
+    display: flex;
   }
   .section__article:nth-child(even) {
-    display: flex;
     text-align: left;
   }
   .section__article:nth-child(odd) {
-    display: flex;
     flex-direction: row-reverse;
     text-align: right;
   }
@@ -58,10 +61,10 @@
   }
 
   .article__img {
-    /*width: 25%;*/
+    margin: auto 20px;
+    width: 25%;
     height: 25%;
     max-width: 500px;
-    margin: 50px 20px 0;
   }
 }
 

@@ -1,0 +1,19 @@
+.form {
+  margin-top: 50px;
+  background-color: green;
+  height: 100vh;
+}
+
+.form__container {
+  background-color: hotpink;
+  display: flex;
+  flex-direction: column;
+
+  span {
+    color: $colorBrand-2;
+  }
+
+  label {
+    color: red;
+  }
+}

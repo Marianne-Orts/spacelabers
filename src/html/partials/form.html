@@ -1,6 +1,22 @@
-<form action="">
+<form class="form" action="" method="POST">
 
+    <small class="form__text">Todos los campos marcados con <span> *</span> con
+        obligatorios</small>
 
+    <div class="form__container">
+        <label class="form__container--name" for="completeName">Nombre y Apellidos <span> *</span>
+            <input placeholder="Nombre..." id="completeName" type="text" name="completeName" required /> </label>
 
+        <label class="form__container--mail" for="emailAddress">Mail<span> *</span>
+            <input id="emailAddress" type="email" id="emailAddress" name="emailAddress"
+                value="nombre.apellidos@mail.com" required /></label>
 
+        <label class="form__container--telephone" for="telephone">Teléfono<span> *</span>
+            <input placeholder="Ej: 123456789" id="telephone" type="tel" id="telephone" name="telephone"
+                required /></label>
+
+        <label class="form__container--message" for="messages">Mensaje:
+            <textarea placeholder="¿Qué necesitas?" id="messages" name="messages" rows="4" cols="50"></textarea></label>
+
+    </div>
 </form>
