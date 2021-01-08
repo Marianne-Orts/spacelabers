@@ -1,7 +1,7 @@
 @mixin sectionClass() {
   text-align: center;
-  font-family: var(--font-main);
-  color: var(--brand-5);
+  font-family: $fontMain;
+  color: $colorBrand-5;
   font-size: 1em;
   font-weight: 300;
   line-height: 1.4;
@@ -13,15 +13,15 @@
 }
 
 @mixin titleClass() {
-  font-family: var(--font-second);
-  color: var(--brand-2);
+  font-family: $fontSecond;
+  color: $colorBrand-2;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
 @mixin title-2Class() {
-  font-family: var(--font-second);
-  color: var(--brand-1);
+  font-family: $fontSecond;
+  color: $colorBrand-1;
 }
 //MEDIAQUERIES - CHANGE TO MIXINS
 

@@ -1,9 +1,9 @@
 .footer {
-  border-top: 1px solid var(--brand-6);
+  border-top: 1px solid $colorBrand-6;
   padding-top: 30px;
 }
 .footer-nav {
-  color: var(--brand-5);
+  color: $colorBrand-5;
   font-weight: 400;
   font-family: var(--font-main);
   padding: 10px;
@@ -13,13 +13,13 @@
 }
 .footer-nav a {
   text-decoration: none;
-  color: var(--brand-5);
+  color: $colorBrand-5;
 }
 .fab {
   color: var(--brand-5);
 }
 
 .copy {
-  color: var(--brand-6);
+  color: $colorBrand-6;
   font-size: 14px;
 }

@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  background-color: var(--brand-1);
+  background-color: $colorBrand-1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +11,7 @@
 .header-menu {
   width: 100%;
   text-align: center;
-  background-color: var(--brand-2);
+  background-color: $colorBrand-2;
 }
 .menu-list-items {
   display: flex;
@@ -21,9 +21,9 @@
 }
 .header-team-logo a,
 .header-menu a {
-  color: var(--brand-3);
+  color: $colorBrand-3;
   text-decoration: none;
-  font-family: var(--font-second);
+  font-family: $fontSecond;
   font-weight: 500;
 }
 
