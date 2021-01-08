@@ -3,21 +3,21 @@
   padding-top: 30px;
 
   &_copy {
-    color: var(--brand-6);
+    color: &colorBrand-6;
     font-size: 14px;
   }
 
   &_nav {
-    color: var(--brand-5);
+    color: &colorBrand-5;
     font-weight: 400;
-    font-family: var(--font-main);
+    font-family: $fontMain;
     padding: 10px;
 
     &-list {
       list-style: none;
 
       &-link {
-        color: var(--brand-5);
+        color: $colorBrand-5;
         text-decoration: none;
         text-transform: uppercase;
       }

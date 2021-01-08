@@ -3,20 +3,13 @@
 @import "core/variables";
 @import "core/mixins";
 
-
 html {
   scroll-behavior: smooth;
 }
 //LAYOUT
-<<<<<<< HEAD
 @import "layout/header";
 @import "layout/hero";
 @import "layout/footer";
-=======
-@import 'layout/header';
-@import 'layout/hero';  
-@import 'layout/footer' ;  
->>>>>>> ef5b2cc6a5c53225ac24b47b07aa59bfce88cdbc
 
 // PAGES
 @import "pages/team";

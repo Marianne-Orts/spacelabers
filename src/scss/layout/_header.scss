@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  background-color: var(--brand-1);
+  background-color: $colorBrand-1;
   opacity: 0.95;
   display: flex;
   flex-direction: column;
@@ -18,10 +18,10 @@
 
     &-link {
       text-decoration: none;
-      font-family: var(--font-second);
+      font-family: $fontSecond;
       text-transform: uppercase;
       font-weight: 500;
-      color: var(--brand-3);
+      color: $colorBrand-3;
     }
   }
 
@@ -29,7 +29,7 @@
     width: 100%;
     text-align: center;
     text-transform: uppercase;
-    background-color: var(--brand-2);
+    background-color: $colorBrand-2;
     font-size: 15px;
     padding: 16px 8px;
     display: block;
@@ -44,8 +44,8 @@
         list-style: none;
         padding: 0 8px;
         text-decoration: none;
-        color: var(--brand-3);
-        font-family: var(--font-second);
+        color: $colorBrand-3;
+        font-family: $fontSecond;
         font-weight: 400;
       }
     }
