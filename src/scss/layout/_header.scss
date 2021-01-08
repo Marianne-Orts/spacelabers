@@ -7,18 +7,28 @@
   position: fixed;
   top: 0;
   z-index: 3;
+
+  &_nav {
+    width: 100%;
+    text-align: center;
+    background-color: var(--brand-2);
+
+    &-list {
+    list-style: none;
+    
+     &-link {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      padding: 0 8px;
+    }
+  
+    }
+  }
 }
-.header-menu {
-  width: 100%;
-  text-align: center;
-  background-color: var(--brand-2);
-}
-.menu-list-items {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  padding: 0 8px;
-}
+
+/* SOLUCIONAR NPM PARA CONTINUAR (JECH)*/
+
 .header-team-logo a,
 .header-menu a {
   color: var(--brand-3);
@@ -54,3 +64,4 @@
 p {
   margin-bottom: 10px;
 }
+
