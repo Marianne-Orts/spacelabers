@@ -68,3 +68,30 @@ li {
 p {
   margin-bottom: 10px;
 }
+
+@include tablet {
+  .header {
+    flex-direction: row;
+    padding: 0 45px;
+
+    &_logo {
+      justify-content: flex-start;
+     }
+  
+    &_nav {
+      background-color: transparent;
+    }
+  }
+}
+
+@include desktop {
+  
+  .header {
+    padding: 0 142px;
+  
+    &_nav{
+    width: auto;
+    }
+  }
+  
+}

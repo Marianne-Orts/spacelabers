@@ -1,13 +1,13 @@
 .hero {
     position: relative;
-  }
-  
-  .hero-image {
-    width: 100%;
-    height: 421px;
-    background-image: url("../images/spacelabers.jpg");
-    background-size: cover;
-    background-position: center;
+
+    &_image {
+      width: 100%;
+      height: 421px;
+      background-image: url("../images/spacelabers.jpg");
+      background-size: cover;
+      background-position: center;
+    }
   }
   
   .rectangle {
@@ -21,8 +21,8 @@
   }
   
   .claim {
-    font-family: var(--font-main);
-    color: var(--brand-4);
+    font-family: $fontMain;
+    color: $colorBrand-4;
     text-align: center;
     font-size: 18px;
     font-weight: 600;
@@ -36,4 +36,27 @@
   .title-2 {
     @include title-2Class();
   }
+
+  @include tablet {
+    .rectangle {
+      opacity: 0.9;
+      transform: translateY(30px);
+      padding: 15px 30px;
+    }
+
+    .container {
+      margin: 30px 46px;
+    }
+  }
+
+  @include desktop {
+    .hero-image {
+      height: 550px;
+    }
+    .container {
+      margin: 30px 142px;
+    }
+  }
+
+  
   
