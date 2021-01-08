@@ -12,9 +12,15 @@
   padding: 15px 0;
 }
 
+//PRUEBA CON MARGENES EN PORCENTAJES//
+@mixin containerClassdesktop() {
+  margin-right: 11%;
+  margin-left: 11%;
+}
+
 @mixin titleClass() {
   font-family: $fontSecond;
-  color: $colorBrand-2;
+  color: $colorBrand-1;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
