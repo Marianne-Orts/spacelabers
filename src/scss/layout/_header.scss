@@ -68,7 +68,7 @@ li {
 p {
   margin-bottom: 10px;
 }
-
+/*
 @include tablet {
   .header {
     flex-direction: row;
@@ -84,14 +84,13 @@ p {
   }
 }
 
+
 @include desktop {
-  
   .header {
     padding: 0 142px;
-  
-    &_nav{
-    width: auto;
+
+    &_nav {
+      width: auto;
     }
   }
-  
-}
+}*/
