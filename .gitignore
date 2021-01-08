@@ -50,9 +50,9 @@ node_modules/
 # Public folder
 public
 
-#node
-node_modules
-
 # vscode
 .vscode
+<<<<<<< HEAD
 
+=======
+>>>>>>> 704e3f0ee80cb68011f7961c2821dde6c0241d81
