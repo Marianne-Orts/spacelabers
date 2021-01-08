@@ -89,14 +89,14 @@
     padding: 0;
   }
 
-  .footer-nav ul {
+  .footer_nav-list {
     list-style: none;
   }
 
   .footer_media-query {
     position: relative;
   }
-  .footer-nav {
+  .footer_nav {
     display: inline-flex;
     line-height: 30px;
     position: relative;
@@ -104,16 +104,19 @@
     float: right;
     text-align: right;
   }
-  .copy {
+  .footer_copy {
     position: absolute;
     top: 0;
     left: 0;
   }
-  .logo-footer {
+  .footer_logo {
     position: absolute;
     top: 20px;
     left: -20px;
     margin-bottom: 20px;
+  }
+  .footer_maxw {
+    margin: 0 30px;
   }
 }
 @media all and (min-width: 1200px) {
@@ -142,5 +145,9 @@
   }
   .article-text {
     flex-basis: calc(70% - 5px);
+  }
+  .footer_maxw {
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
