@@ -1,16 +1,16 @@
 // CORE
-@import 'core/reset';
-@import 'core/variables';
-@import 'core/mixins'; 
+@import "core/reset";
+@import "core/variables";
+@import "core/mixins";
 
 html {
   scroll-behavior: smooth;
 }
 //LAYOUT
-@import 'layout/header';
-@import 'layout/hero';  
-@import 'layout/footer';  
+@import "layout/header";
+@import "layout/hero";
+@import "layout/footer";
 
 // PAGES
-@import 'pages/team'; 
-@import 'pages/about-us'; 
+@import "pages/team";
+@import "pages/about-us";
