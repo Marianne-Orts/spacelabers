@@ -23,21 +23,23 @@
   font-family: $fontSecond;
   color: $colorBrand-1;
 }
-//MEDIAQUERIES - CHANGE TO MIXINS
 
+@mixin tablet {
+  @media all and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media all and (min-width: 1200px) {
+    @content;
+  }
+}
+
+//MEDIAQUERIES, CHANGE TO MIXINS 
 
 @media all and (min-width: 768px) {
   //TABLET
-  .header {
-    flex-direction: row;
-    padding: 0 45px;
-  }
-  .header-menu {
-    background-color: transparent;
-  }
-  .header-team-logo {
-    justify-content: flex-start;
-  }
   .rectangle {
     opacity: 0.9;
     transform: translateY(30px);
@@ -125,15 +127,10 @@
   .hero-image {
     height: 550px;
   }
-  .header-menu {
-    width: auto;
-  }
   .container {
     margin: 30px 142px;
   }
-  .header {
-    padding: 0 142px;
-  }
+
   .fortalezas-debilidades {
     margin-top: 0;
     padding-top: 13px;
