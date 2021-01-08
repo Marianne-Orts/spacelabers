@@ -1,7 +1,7 @@
 @mixin sectionClass() {
   text-align: center;
-  font-family: $fontMain;
-  color: $colorBrand-5;
+  font-family: var(--font-main);
+  color: var(--brand-5);
   font-size: 1em;
   font-weight: 300;
   line-height: 1.4;
@@ -13,18 +13,17 @@
 }
 
 @mixin titleClass() {
-  font-family: $fontSecond;
-  color: $colorBrand-2;
+  font-family: var(--font-second);
+  color: var(--brand-2);
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
 @mixin title-2Class() {
-  font-family: $fontSecond;
-  color: $colorBrand-1;
+  font-family: var(--font-second);
+  color: var(--brand-1);
 }
 //MEDIAQUERIES - CHANGE TO MIXINS
-
 
 @media all and (min-width: 768px) {
   //TABLET
@@ -63,7 +62,7 @@
     padding-left: 15px;
   }
   /*ABOUT US*/
-  /*
+
   .article {
     display: flex;
     justify-content: space-around;
@@ -83,21 +82,23 @@
   }
   .article-text-right {
     text-align: right;
-  }*/
+  }
+  */
+  
   /*FOOTER*/
 
   .footer {
     padding: 0;
   }
 
-  .footer_nav-list {
+  .footer-nav ul {
     list-style: none;
   }
 
   .footer_media-query {
     position: relative;
   }
-  .footer_nav {
+  .footer-nav {
     display: inline-flex;
     line-height: 30px;
     position: relative;
@@ -105,19 +106,16 @@
     float: right;
     text-align: right;
   }
-  .footer_copy {
+  .copy {
     position: absolute;
     top: 0;
     left: 0;
   }
-  .footer_logo {
+  .logo-footer {
     position: absolute;
     top: 20px;
     left: -20px;
     margin-bottom: 20px;
-  }
-  .footer_maxw {
-    margin: 0 30px;
   }
 }
 @media all and (min-width: 1200px) {
@@ -146,9 +144,5 @@
   }
   .article-text {
     flex-basis: calc(70% - 5px);
-  }
-  .footer_maxw {
-    max-width: 1200px;
-    margin: 0 auto;
   }
 }
