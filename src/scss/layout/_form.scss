@@ -1,17 +1,9 @@
 .form {
-  margin-top: 50px;
-  height: 100vh;
-  @include containerClass();
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
-  color: $colorBrand-6;
-  font-family: $fontMain;
-  font-size: 14px;
-  /*appearance: none;*/
-}
 
-input[type="submit" i] {
-  -webkit-appearance: none;
+  /*appearance: none;*/
 }
 
 span {
@@ -19,9 +11,13 @@ span {
 }
 
 .form__label {
+  font-family: $fontMain;
+  font-size: 14px;
+  color: $colorBrand-5;
 }
 
 .form__submit {
+  width: 100%;
   margin: 20px 0 40px 0;
   height: 45px;
   background-color: $colorBrand-1;
@@ -39,7 +35,7 @@ span {
   padding: 7px 180px 15px 15px;
   border: solid 1px $colorBrand-6;
 }
-.form__textarea {
+.form__mesage--textarea {
   height: 110px;
   width: 100%;
   margin: 7px 0 13px;
@@ -54,7 +50,9 @@ span {
   .form__submit {
     width: 40%;
   }
-  .buttom {
+  .form__buttom {
+    display: flex;
+    justify-content: flex-end;
   }
 }
 
@@ -63,12 +61,38 @@ span {
     margin-left: 25%;
     margin-right: 25%;
   }
-  .form__input--telephone {
-    display: inline;
-    width: 40%;
+
+  .input {
+    padding: 15px 0 15px 15px;
   }
-  .form__input--mail {
-    display: inline;
-    width: 60%;
+  .form__mesage--textarea {
+    padding: 15px;
+  }
+  .container__mail__telephone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .form__mail {
+      width: 60%;
+
+      margin-right: 44px;
+    }
+    .form__telephone {
+      width: 30%;
+    }
   }
 }
+
+/*.form__submit {
+  display: block;
+  margin: 20px 0;
+  width: 290px;
+  height: 45px;
+  background-color: $colorBrand-1;
+  border-radius: 5px;
+  color: $colorBrand-3;
+  text-transform: uppercase;
+  font-weight: bold;
+  /*-webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; */

@@ -1,26 +1,33 @@
 <form class="form" action="" method="POST">
 
+  <div class="form__block">
+    <label class="form__label" for="completeName">Nombre y Apellidos <span> *</span></label>
+    <input class="form__input--name input" placeholder="Nombre..." id="completeName" type="text" name="completeName"
+      required />
+  </div>
 
+  <div class="container__mail__telephone">
 
+    <div class="form__mail">
+      <label class="form__label" for="emailAddress">Mail<span> *</span></label>
+      <input class="form__input--mail input" id="emailAddress" type="email" id="emailAddress" name="emailAddress"
+        placeholder="nombre.apellidos@mail.com" required />
+    </div>
 
-  <label class="form__label" for="completeName">Nombre y Apellidos <span> *</span></label>
-  <input class="form__input--name input" placeholder="Nombre..." id="completeName" type="text" name="completeName"
-    required />
+    <div class="form__telephone">
+      <label class="form__label" for="telephone">Teléfono<span> *</span></label>
+      <input class="form__input--telephone input" placeholder="Ej: 123456789" id="telephone" type="tel" id="telephone"
+        name="telephone" required />
+    </div>
+  </div>
 
+  <div class="form_textarea">
+    <label class="form__label" for="messages">Mensaje:</label>
+    <textarea class="form__mesage--textarea" placeholder="¿Qué necesitas?" id="messages" name="messages"></textarea>
+  </div>
 
-  <label class="form__label" for="emailAddress">Mail<span> *</span></label>
-  <input class="form__input--mail input" id="emailAddress" type="email" id="emailAddress" name="emailAddress"
-    value="nombre.apellidos@mail.com" required />
-
-
-  <label class="form__label" for="telephone">Teléfono</label>
-  <input class="form__input--telephone input" placeholder="Ej: 123456789" id="telephone" type="tel" id="telephone"
-    name="telephone" required />
-
-  <label class="form__label" for="messages">Mensaje:<span> *</span></label>
-  <textarea class="form__textarea" placeholder="¿Qué necesitas?" id="messages" name="messages"></textarea>
-
-
-  <input class="form__submit buttom" type="submit" value="Enviar" />
+  <div class="form__buttom">
+    <input class="form__submit" type="submit" value="Enviar" />
+  </div>
 
 </form>
