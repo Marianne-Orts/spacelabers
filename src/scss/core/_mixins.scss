@@ -32,7 +32,11 @@
 
 @mixin tablet {
   @media all and (min-width: 768px) {
+<<<<<<< HEAD
     @content
+=======
+  @content;
+>>>>>>> f56d2f4d6dc0272d6b4d30444b0239e419c66773
   }
 }
 
@@ -85,41 +89,8 @@
   .article-text-right {
     text-align: right;
   }*/
-  /*FOOTER*/
 
-  .footer {
-    padding: 0;
-  }
-
-  .footer_nav-list {
-    list-style: none;
-  }
-
-  .footer_media-query {
-    position: relative;
-  }
-  .footer_nav {
-    display: inline-flex;
-    line-height: 30px;
-    position: relative;
-    top: -20px;
-    float: right;
-    text-align: right;
-  }
-  .footer_copy {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  .footer_logo {
-    position: absolute;
-    top: 20px;
-    left: -20px;
-    margin-bottom: 20px;
-  }
-  .footer_maxw {
-    margin: 0 30px;
-  }
+  
 }
 @media all and (min-width: 1200px) {
   //DESKTOP
@@ -137,8 +108,5 @@
   .article-text {
     flex-basis: calc(70% - 5px);
   }
-  .footer_maxw {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+  
 }
