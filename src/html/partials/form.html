@@ -1,17 +1,9 @@
 <form class="form" action="" method="POST">
-  <div class="form__block"> 
+
+  <div class="form__block">
     <label class="form__label" for="completeName">Nombre y Apellidos <span> *</span></label>
     <input class="form__input--name input" placeholder="Nombre..." id="completeName" type="text" name="completeName"
-        required />
-  </div>
-  <div class="form__block">
-    <label class="form__label" for="emailAddress">Mail<span> *</span></label>
-    <input class="form__input--mail input" id="emailAddress" type="email" id="emailAddress" name="emailAddress" placeholder="nombre.apellidos@mail.com" required />
-  </div>
-  <div class="form__block">
-    <label class="form__label" for="telephone">Teléfono<span> *</span></label>
-    <input class="form__input--telephone input" placeholder="Ej: 123456789" id="telephone" type="tel" id="telephone"
-        name="telephone" required />
+      required />
   </div>
   <div class="form__block">
     <label class="form__label" for="messages">Mensaje:</label>
@@ -19,22 +11,28 @@
 
   
 
-    <div class="form__container">
-        <label class="form__container--name" for="completeName">Nombre y Apellidos <span> *</span>
-            <input placeholder="Nombre..." id="completeName" type="text" name="completeName" required /> </label>
+  <div class="container__mail__telephone">
 
-        <label class="form__container--mail" for="emailAddress">Mail<span> *</span>
-            <input id="emailAddress" type="email" id="emailAddress" name="emailAddress"
-                value="nombre.apellidos@mail.com" required /></label>
-
-        <label class="form__container--telephone" for="telephone">Teléfono<span> *</span>
-            <input placeholder="Ej: 123456789" id="telephone" type="tel" id="telephone" name="telephone"
-                required /></label>
-
-        <label class="form__container--message" for="messages">Mensaje:
-            <textarea placeholder="¿Qué necesitas?" id="messages" name="messages" cols="50" rows="4"></textarea></label>
-
-        <input type="submit" value="Enviar" />
-
+    <div class="form__mail">
+      <label class="form__label" for="emailAddress">Mail<span> *</span></label>
+      <input class="form__input--mail input" id="emailAddress" type="email" id="emailAddress" name="emailAddress"
+        placeholder="nombre.apellidos@mail.com" required />
     </div>
+
+    <div class="form__telephone">
+      <label class="form__label" for="telephone">Teléfono<span> *</span></label>
+      <input class="form__input--telephone input" placeholder="Ej: 123456789" id="telephone" type="tel" id="telephone"
+        name="telephone" required />
+    </div>
+  </div>
+
+  <div class="form_textarea">
+    <label class="form__label" for="messages">Mensaje:</label>
+    <textarea class="form__mesage--textarea" placeholder="¿Qué necesitas?" id="messages" name="messages"></textarea>
+  </div>
+
+  <div class="form__buttom">
+    <input class="form__submit" type="submit" value="Enviar" />
+  </div>
+
 </form>
