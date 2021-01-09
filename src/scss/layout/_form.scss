@@ -1,9 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
 .form {
-  margin-top: 50px;
-  height: 100vh;
   @include containerClass();
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: left;
   /*appearance: none;*/
 }
 
@@ -11,21 +19,10 @@ span {
   color: $colorBrand-2;
 }
 
-label {
+.form__label {
   color: $colorBrand-6;
   font-family: $fontMain;
   font-size: 14px;
-}
-
-.form__submit {
-  display: block;
-  margin: 20px 0 40px 0;
-  height: 45px;
-  background-color: $colorBrand-1;
-  border-radius: 5px;
-  color: $colorBrand-3;
-  text-transform: uppercase;
-  font-weight: bold;
 }
 
 .input {
@@ -35,8 +32,22 @@ label {
   padding: 7px 180px 15px 15px;
   border: solid 1px $colorBrand-6;
 }
+
 .form__textarea {
   height: 110px;
-  width: 100%;
+  width: 290px;
   margin: 7px 0 13px;
+}
+
+
+.form__submit {
+  display: block;
+  margin: 20px 0 40px 0;
+  width: 290px;
+  height: 45px;
+  background-color: $colorBrand-1;
+  border-radius: 5px;
+  color: $colorBrand-3;
+  text-transform: uppercase;
+  font-weight: bold;
 }
