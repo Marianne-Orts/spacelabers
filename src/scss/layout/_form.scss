@@ -1,17 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .form {
-  @include containerClass();
+  margin-top: 50px;
   height: 100vh;
+  @include containerClass();
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: left;
+  color: $colorBrand-6;
+  font-family: $fontMain;
+  font-size: 14px;
   /*appearance: none;*/
+}
+
+input[type="submit" i] {
+  -webkit-appearance: none;
 }
 
 span {
@@ -19,38 +19,56 @@ span {
 }
 
 .form__label {
-  color: $colorBrand-6;
-  display: block;
-  font-family: $fontMain;
-  font-size: 14px;
-}
-
-.input {
-  display: block;
-  width: 100%;
-  height: 45px;
-  margin: 7px 0 13px;
-  padding: 10px;
-  border: solid 1px $colorBrand-6;
-}
-
-.form__textarea {
-  height: 110px;
-  width: 290px;
-  margin: 7px 0 13px;
 }
 
 .form__submit {
-  display: block;
-  margin: 20px 0;
-  width: 290px;
+  margin: 20px 0 40px 0;
   height: 45px;
   background-color: $colorBrand-1;
   border-radius: 5px;
+  border: 0;
   color: $colorBrand-3;
   text-transform: uppercase;
   font-weight: bold;
-  /*-webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none; */
+}
+
+.input {
+  width: 100%;
+  height: 45px;
+  margin: 7px 0 13px;
+  padding: 7px 180px 15px 15px;
+  border: solid 1px $colorBrand-6;
+}
+.form__textarea {
+  height: 110px;
+  width: 100%;
+  margin: 7px 0 13px;
+  border: solid 1px $colorBrand-6;
+}
+
+@media all and (min-width: 768px) {
+  .form {
+    margin-left: 20.7%;
+    margin-right: 20.7%;
+  }
+  .form__submit {
+    width: 40%;
+  }
+  .buttom {
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .form {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .form__input--telephone {
+    display: inline;
+    width: 40%;
+  }
+  .form__input--mail {
+    display: inline;
+    width: 60%;
+  }
 }
