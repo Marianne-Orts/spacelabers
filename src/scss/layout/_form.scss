@@ -1,19 +1,42 @@
 .form {
   margin-top: 50px;
-  background-color: green;
   height: 100vh;
-}
-
-.form__container {
-  background-color: hotpink;
+  @include containerClass();
   display: flex;
   flex-direction: column;
+  /*appearance: none;*/
+}
 
-  span {
-    color: $colorBrand-2;
-  }
+span {
+  color: $colorBrand-2;
+}
 
-  label {
-    color: red;
-  }
+label {
+  color: $colorBrand-6;
+  font-family: $fontMain;
+  font-size: 14px;
+}
+
+.form__submit {
+  display: block;
+  margin: 20px 0 40px 0;
+  height: 45px;
+  background-color: $colorBrand-1;
+  border-radius: 5px;
+  color: $colorBrand-3;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.input {
+  width: 290px;
+  height: 45px;
+  margin: 7px 0 13px;
+  padding: 7px 180px 15px 15px;
+  border: solid 1px $colorBrand-6;
+}
+.form__textarea {
+  height: 110px;
+  width: 100%;
+  margin: 7px 0 13px;
 }
