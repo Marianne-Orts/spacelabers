@@ -6,12 +6,11 @@
 
 
 .form {
-  @include containerClass();
+  margin-top: 50px;
   height: 100vh;
+  @include containerClass();
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: left;
   /*appearance: none;*/
 }
 
@@ -27,7 +26,21 @@ span {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+.form__submit {
+  display: block;
+  margin: 20px 0 40px 0;
+  height: 45px;
+  background-color: $colorBrand-1;
+  border-radius: 5px;
+  color: $colorBrand-3;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+>>>>>>> 5108006eb3944f7b5c567b32a3bdef0aa8746938
 .input {
   display: block;
   width: 290px;
@@ -36,10 +49,9 @@ span {
   padding: 10px;
   border: solid 1px $colorBrand-6;
 }
-
 .form__textarea {
   height: 110px;
-  width: 290px;
+  width: 100%;
   margin: 7px 0 13px;
 }
 
@@ -58,4 +70,7 @@ span {
   -moz-appearance: none;
   appearance: none; */
 }
+<<<<<<< HEAD
 >>>>>>> f56d2f4d6dc0272d6b4d30444b0239e419c66773
+=======
+>>>>>>> 5108006eb3944f7b5c567b32a3bdef0aa8746938
