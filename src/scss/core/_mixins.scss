@@ -32,17 +32,13 @@
 
 @mixin tablet {
   @media all and (min-width: 768px) {
-<<<<<<< HEAD
-    @content
-=======
   @content;
->>>>>>> f56d2f4d6dc0272d6b4d30444b0239e419c66773
   }
 }
 
 @mixin desktop {
   @media all and (min-width: 1200px) {
-    @content
+    @content;
   }
 }
 
