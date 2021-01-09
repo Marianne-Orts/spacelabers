@@ -1,21 +1,24 @@
 <form class="form" action="" method="POST">
-
-
+  <div class="form__block">
     <label class="form__label" for="completeName">Nombre y Apellidos <span> *</span></label>
     <input class="form__input--name input" placeholder="Nombre..." id="completeName" type="text" name="completeName"
-        required />
-
+      required />
+  </div>
+  <div class="form__block">
     <label class="form__label" for="emailAddress">Mail<span> *</span></label>
     <input class="form__input--mail input" id="emailAddress" type="email" id="emailAddress" name="emailAddress"
-        value="nombre.apellidos@mail.com" required />
-
+      placeholder="nombre.apellidos@mail.com" required />
+  </div>
+  <div class="form__block">
     <label class="form__label" for="telephone">Teléfono<span> *</span></label>
     <input class="form__input--telephone input" placeholder="Ej: 123456789" id="telephone" type="tel" id="telephone"
-        name="telephone" required />
+      name="telephone" required />
+  </div>
 
+  <div class="form__block">
     <label class="form__label" for="messages">Mensaje:</label>
     <textarea class="form__textarea" placeholder="¿Qué necesitas?" id="messages" name="messages"></textarea>
 
     <input class="form__submit" type="submit" value="Enviar" />
-
+  </div>
 </form>
