@@ -32,6 +32,7 @@
 
 @mixin tablet {
   @media all and (min-width: 768px) {
+  @content;
   }
 }
 
@@ -83,41 +84,8 @@
   .article-text-right {
     text-align: right;
   }*/
-  /*FOOTER*/
 
-  .footer {
-    padding: 0;
-  }
-
-  .footer_nav-list {
-    list-style: none;
-  }
-
-  .footer_media-query {
-    position: relative;
-  }
-  .footer_nav {
-    display: inline-flex;
-    line-height: 30px;
-    position: relative;
-    top: -20px;
-    float: right;
-    text-align: right;
-  }
-  .footer_copy {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  .footer_logo {
-    position: absolute;
-    top: 20px;
-    left: -20px;
-    margin-bottom: 20px;
-  }
-  .footer_maxw {
-    margin: 0 30px;
-  }
+  
 }
 @media all and (min-width: 1200px) {
   //DESKTOP
