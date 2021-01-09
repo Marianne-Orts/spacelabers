@@ -4,9 +4,7 @@
   box-sizing: border-box;
 }
 
-.claim{
-  display: none;
-}
+
 .form {
   @include containerClass();
   height: 100vh;
