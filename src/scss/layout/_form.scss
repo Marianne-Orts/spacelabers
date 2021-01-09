@@ -2,6 +2,7 @@
   margin-top: 10px;
   display: flex;
   flex-direction: column;
+  margin: 0 15px;
 
   /*appearance: none;*/
 }
@@ -34,12 +35,15 @@ span {
   margin: 7px 0 13px;
   padding: 7px 180px 15px 15px;
   border: solid 1px $colorBrand-6;
+  font-family: $fontMain;
 }
 .form__mesage--textarea {
   height: 110px;
   width: 100%;
   margin: 7px 0 13px;
+  padding: 15px;
   border: solid 1px $colorBrand-6;
+  font-family: $fontMain;
 }
 
 @media all and (min-width: 768px) {
