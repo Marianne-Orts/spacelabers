@@ -1,4 +1,8 @@
 /* SECCION */
+
+#team {
+  scroll-margin-top: 100px;
+}
 .section {
   @include sectionClass();
 }
