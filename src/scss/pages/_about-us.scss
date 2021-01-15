@@ -56,18 +56,16 @@
     text-align: right;
   }
 
-  .article__text {
-    /*padding: 5px;
+  /*padding: 5px;
     width: 75%;
     font-size: 16px;*/
-  }
-  //COMENTAR PORCENTAJES IMAGENES//
-  .article__img {
-    margin: 0 20px;
-    width: 25%;
-    height: 25%;
-    max-width: 500px;
-  }
+}
+//COMENTAR PORCENTAJES IMAGENES//
+.article__img {
+  margin: 0 20px;
+  width: 25%;
+  height: 25%;
+  max-width: 500px;
 }
 
 @media all and (min-width: 1200px) {

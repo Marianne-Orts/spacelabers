@@ -1,4 +1,7 @@
 /* SECCION */
+#team {
+  scroll-margin-top: 90px;
+}
 .section {
   @include sectionClass();
 }
@@ -27,5 +30,25 @@
 
   &__contenidos {
     margin-top: 0;
+  }
+}
+@media all and (min-width: 768px) {
+  //TABLET
+
+  .title-2 {
+    padding-bottom: 15px;
+  }
+  .fortalezasydebilidades__contenidos {
+    margin-top: 0;
+    padding-top: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .fortalezas {
+    padding-right: 15px;
+  }
+  .debilidades {
+    padding-left: 15px;
   }
 }
