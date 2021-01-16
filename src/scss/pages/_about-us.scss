@@ -29,13 +29,16 @@
     :last-of-type {
       margin-right: 0;
     }
+    a {
+      color: $colorBrand_1;
+      transition: all 1s;
+      &:hover{
+        color: $colorBrand-2;
+        transform: scale(2) ;
+      }
+    }
   }
-
-  a {
-    color: $colorBrand_1;
-  }
-
-  .fa-circle {
+  & .fa-circle {
     font-size: 3px;
   }
 }
