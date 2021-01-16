@@ -12,7 +12,6 @@
     font-weight: 400;
     font-family: $fontMain;
     padding: 10px;
-    
 
     &-list {
       list-style: none;
@@ -25,15 +24,15 @@
         text-decoration: none;
         text-transform: uppercase;
         transition: all 2s;
-       
-        &:hover{
+
+        &:hover {
           color: $colorBrand-1;
           border-bottom: 1px solid;
         }
       }
     }
   }
-  @include tablet{
+  @include tablet {
     .footer {
       padding: 0;
     }
@@ -64,4 +63,3 @@
     }
   }
 }
-

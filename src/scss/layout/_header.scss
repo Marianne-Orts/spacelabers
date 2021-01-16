@@ -8,14 +8,12 @@
   position: fixed;
   top: 0;
   z-index: 3;
-
   &_logo {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 60px;
-
     &-link {
       text-decoration: none;
       font-family: $fontSecond;
@@ -34,10 +32,8 @@
     padding: 16px 8px;
     display: block;
     white-space: nowrap;
-
     &-list {
       list-style: none;
-
       &-link {
         display: inline;
         justify-content: space-between;
@@ -55,20 +51,16 @@
 li {
   display: inline;
 }
-
 .container {
   @include containerClass();
 }
-
 .display-flex {
   display: flex;
   justify-content: space-between;
 }
-
 p {
   margin-bottom: 10px;
 }
-
 @include tablet {
   .header {
     flex-direction: row;
@@ -76,15 +68,13 @@ p {
 
     &_logo {
       justify-content: flex-start;
-     }
-  
+    }
+
     &_nav {
       background-color: transparent;
     }
   }
 }
-
-
 @include desktop {
   .header {
     padding: 0 142px;
