@@ -20,7 +20,7 @@
 /*SCSS SOCIAL*/
 .article__text--social {
   display: inline-flex;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
   margin-bottom: 15px;
   color: $colorBrand_5;
@@ -30,16 +30,18 @@
       margin-right: 0;
     }
     a {
+      position: absolute;
       color: $colorBrand_1;
       transition: all 1s;
       &:hover{
         color: $colorBrand-2;
-        transform: scale(2) ;
+        font-size: 20px;
       }
     }
   }
   & .fa-circle {
     font-size: 3px;
+    padding-left: 10px;
   }
 }
 
@@ -59,18 +61,16 @@
     text-align: right;
   }
 
-  .article__text {
-    /*padding: 5px;
+  /*padding: 5px;
     width: 75%;
     font-size: 16px;*/
-  }
-  //COMENTAR PORCENTAJES IMAGENES//
-  .article__img {
-    margin: 0 20px;
-    width: 25%;
-    height: 25%;
-    max-width: 500px;
-  }
+}
+//COMENTAR PORCENTAJES IMAGENES//
+.article__img {
+  margin: 0 20px;
+  width: 25%;
+  height: 25%;
+  max-width: 500px;
 }
 
 @media all and (min-width: 1200px) {
