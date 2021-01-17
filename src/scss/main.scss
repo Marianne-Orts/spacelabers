@@ -5,12 +5,12 @@
 
 html {
   scroll-behavior: smooth;
+  font-display: block;
 }
 //LAYOUT
 @import "layout/header";
 @import "layout/hero";
 @import "layout/footer";
-
 
 // PAGES
 @import "pages/team";

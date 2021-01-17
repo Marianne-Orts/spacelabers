@@ -1,5 +1,16 @@
 .observation {
-    font-size: 10px;
-    margin: 40px 20px 20px 20px;
-  }
+  font-size: 10px;
+  margin: 40px 20px 20px 20px;
+}
 @import "layout/form";
+
+@media all and (min-width: 768px) {
+  .paragraph {
+    margin: 30px 120px 0 120px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .paragraph {
+    margin: 30px 150px 0 150px;
+  }
+}
