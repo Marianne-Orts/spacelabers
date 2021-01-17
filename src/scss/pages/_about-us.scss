@@ -19,6 +19,13 @@
   border: 4px solid $colorBrand-5;
   border-radius: 10px;
   margin: 50px 29px;
+  height: 180px;
+  background-size: cover;
+  margin: 50px auto;
+  &:hover{
+    border-radius: 10%;
+    transition: all ease 1s;
+  }
 }
 
 .article__text--names {
@@ -32,59 +39,39 @@
   line-height: 2.25;
 }
 
-.jech{
+.jech {
   background-image: url("../images/foto-jech.jpeg");
-  height: 180px;
-  background-size: cover;
-  margin: 50px auto;
-
-  &:hover{
-  background-image: url("../images/foto-jech-hover.jpg");
-  border-radius: 10%;
-  transition: all ease 1s;
+  &:hover {
+    background-image: url("../images/foto-jech-hover.jpg");
+   
   }
 }
 
-.carmen{
+.carmen {
   background-image: url("../images/foto-carmen.jpg");
-  height: 180px;
-  background-size: cover;
-  margin: 50px auto;
-
-  &:hover{
-  background-image: url("../images/foto-carmen-hover.jpg");
-  border-radius: 10%;
-  transition: all ease 1s;
+  &:hover {
+    background-image: url("../images/foto-carmen-hover.jpg");
+    
   }
 }
 
-.mari{
+.mari {
   background-image: url("../images/foto-mari.jpg");
-  height: 180px;
-  background-size: cover;
-  margin: 50px auto;
 
-  &:hover{
-  background-image: url("../images/foto-mari-hover.jpg");
-  border-radius: 10%;
-  transition: all ease 1s;
+  &:hover {
+    background-image: url("../images/foto-mari-hover.jpg");
+   
   }
 }
 
-.dandara{
+.dandara {
   background-image: url("../images/foto-dand.jpg");
-  height: 180px;
-  background-size: cover;
-  margin: 50px auto;
 
-  &:hover{
-  background-image: url("../images/foto-dand-hover.jpg");
-  border-radius: 10%;
-  transition: all ease 1s;
+  &:hover {
+    background-image: url("../images/foto-dand-hover.jpg");
+    
   }
 }
-
-
 
 /*SCSS SOCIAL*/
 .article__text--social {
@@ -127,15 +114,15 @@
     flex-direction: row-reverse;
     text-align: right;
   }
-
-  .article__img {
-    width: 207px;
-    height: 207px;
-    margin: 20px 29px;
+  .article__text {
+    width: 75%;
   }
 
-  .jech{
-    width: 207px;
+  .jech,
+  .carmen,
+  .dandara,
+  .mari {
+    ustify-content: space-between;
   }
 }
 
