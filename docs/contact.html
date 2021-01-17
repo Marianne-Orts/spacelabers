@@ -1,114 +1,118 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPACELABERS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+      integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY="
+      crossorigin="anonymous"
+    />
+    <!-- <script src="https://kit.fontawesome.com/ff26b2c562.js" crossorigin="anonymous"></script> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SPACELABERS</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
-    integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
-  <!-- <script src="https://kit.fontawesome.com/ff26b2c562.js" crossorigin="anonymous"></script> -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="./assets/css/main.css" />
-</head>
+  <body>
+    <header class="header">
+      <div class="header_logo">
+        <a
+          class="header_logo-link"
+          href="../index.html"
+          title="Ir a página principal"
+          >Spacelabers</a
+        >
+      </div>
+      <nav class="header_nav">
+        <ul class="header_nav-list">
+          <li>
+            <a class="header_nav-list-link" href="../index.html/#team">Equipo</a>
+          </li>
+          <li>
+            <a class="header_nav-list-link" href="../index.html/#about-us">Quienes somos</a>
+          </li>
+          <li>
+            <a class="header_nav-list-link" href="contact.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-   <header class="header">
-    <div class="header_logo">
-      <a class="header_logo-link" href="../index.html" title="Ir a página principal">Spacelabers</a>
-    </div>
-  
-  
-    <nav class="header_nav">
-      <ul class="header_nav-list">
-        <li>
-          <a class="header_nav-list-link" href="../index.html">Equipo</a>
-        </li>
-        <li>
-          <a class="header_nav-list-link" href="../index.html/">Quienes somos</a>
-        </li>
-        <li>
-          <a class="header_nav-list-link" href="contact.html">Contacto</a>
-        </li>
-      </ul>
-    </nav>
-  
-  </header>
+    <section class="hero-contact">
+        <div class="hero-contact_image" ></div>
+      </section>
 
-  <section class="hero-contact">
-      <div class="hero-contact_image" ></div>
+    <section id="team" class="container section team">
+      <h2 class="title">Contacto</h2>
+      <p class="paragraph">
+        Ahora que ya nos conoces,
+        ¿A qué esperas para ponerte en contacto con
+        nosotras?.
+      </p>
+      <div class="observation">
+        <p>Todos los campos marcados con <span> *</span> son obligatorios.</p>
+      </div>
     </section>
 
-  <section id="team" class="container section team">
-    <h2 class="title">Contacto</h2>
-    <p class="paragraph">
-      Ahora que ya nos conoces,
-      ¿A qué esperas para ponerte en contacto con
-      nosotras?.
-    </p>
-    <div class="observation">
-      <p>Todos los campos marcados con <span> *</span> son obligatorios.</p>
-    </div>
-  </section>
 
+    <form class="form" action="https://formspree.io/f/mvovdbkv" method="POST">
 
-  <form class="form" action="https://formspree.io/f/mvovdbkv" method="POST">
-
-    <div class="form__block">
-      <label class="form__label" for="completeName">Nombre y Apellidos <span> *</span></label>
-      <input class="form__input--name input" placeholder="Nombre..." id="completeName" type="text" name="completeName"
-        required />
-    </div>
-
-    <div class="container__mail__telephone">
-
-      <div class="form__mail">
-        <label class="form__label" for="emailAddress">Mail<span> *</span></label>
-        <input class="form__input--mail input" id="emailAddress" type="email" id="emailAddress" name="emailAddress"
-          placeholder="nombre.apellidos@mail.com" required />
+      <div class="form__block">
+        <label class="form__label" for="completeName">Nombre y Apellidos <span> *</span></label>
+        <input class="form__input--name input" placeholder="Nombre..." id="completeName" type="text" name="completeName"
+          required />
       </div>
 
-      <div class="form__telephone">
-        <label class="form__label" for="telephone">Teléfono<span> *</span></label>
-        <input class="form__input--telephone input" placeholder="Ej: 123456789" id="telephone" type="tel" id="telephone"
-          name="telephone" required />
+      <div class="container__mail__telephone">
+
+        <div class="form__mail">
+          <label class="form__label" for="emailAddress">Mail<span> *</span></label>
+          <input class="form__input--mail input" id="emailAddress" type="email" id="emailAddress" name="emailAddress"
+            placeholder="nombre.apellidos@mail.com" required />
+        </div>
+
+        <div class="form__telephone">
+          <label class="form__label" for="telephone">Teléfono</label>
+          <input class="form__input--telephone input" placeholder="Ej: 123456789" id="telephone" type="tel" id="telephone"
+            name="telephone" required />
+        </div>
       </div>
-    </div>
 
-    <div class="form_textarea">
-      <label class="form__label" for="messages">Mensaje:</label>
-      <textarea class="form__mesage--textarea" placeholder="¿Qué necesitas?" id="messages" name="messages"></textarea>
-    </div>
-
-    <div class="form__buttom">
-      <input class="form__submit" type="submit" value="Enviar" />
-    </div>
-
-  </form>
-
-  <footer class="footer">
-
-    <div class="footer_maxw">
-
-      <div class="section container position_relative section__article">
-        
-        <small class="footer_copy">Spacelabers &copy; 2021</small>
-        <nav class="footer_nav">
-          <ul class="footer_nav-list">
-            <li><a class="footer_nav-list-link" href="#team">Equipo</a></li>
-            <li><a class="footer_nav-list-link" href="#about-us">Quiénes somos</a></li>
-            <li><a class="footer_nav-list-link" href="contact.html">Contacto</a></li>
-          </ul>
-        </nav>
-        <a class="footer_logo" href="https://adalab.es/"><img src="./assets/images/logo-adalab.png"
-            alt="Logo Adalab" /></a>
+      <div class="form_textarea">
+        <label class="form__label" for="messages">Mensaje<span> *</span>:</label>
+        <textarea class="form__mesage--textarea" placeholder="¿Qué necesitas?" id="messages" name="messages"></textarea>
       </div>
-    </div>
-  </footer>
 
-</body>
+      <div class="form__buttom">
+        <input class="form__submit" type="submit" value="Enviar" />
+      </div>
 
+    </form>
+
+    <footer class="footer">
+
+      <div class="footer_maxw">
+
+        <div class="section container position_relative section__article">
+          
+          <small class="footer_copy">Spacelabers &copy; 2021</small>
+          <nav class="footer_nav">
+            <ul class="footer_nav-list">
+              <li><a class="footer_nav-list-link" href="../index.html/#team">Equipo</a></li>
+              <li><a class="footer_nav-list-link" href="../index.html/#about-us">Quiénes somos</a></li>
+              <li><a class="footer_nav-list-link" href="contact.html">Contacto</a></li>
+            </ul>
+          </nav>
+          <a class="footer_logo" href="https://adalab.es/"><img src="./assets/images/logo-adalab.png"
+              alt="Logo Adalab" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
