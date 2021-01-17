@@ -1,23 +1,27 @@
 .footer {
   border-top: 1px solid $colorBrand-6;
   padding-top: 20px;
-
+  color: &colorBrand-6;
   &_copy {
-    color: &colorBrand-6;
     font-size: 14px;
   }
 
   &_nav {
-    color: &colorBrand-5;
-    font-weight: 400;
     font-family: $fontMain;
     padding: 10px;
 
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+
     &-list {
+      font-size: 14px;
+      font-weight: 600;
       list-style: none;
       display: flex;
       flex-direction: column;
       align-items: center;
+      opacity: 0.75;
 
       &-link {
         color: $colorBrand-5;
