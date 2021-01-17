@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPACELABERS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+      integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY="
+      crossorigin="anonymous"
+    />
+    <!-- <script src="https://kit.fontawesome.com/ff26b2c562.js" crossorigin="anonymous"></script> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SPACELABERS</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
-    integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
-  <!-- <script src="https://kit.fontawesome.com/ff26b2c562.js" crossorigin="anonymous"></script> -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="./assets/css/main.css" />
-</head>
+  <body>
+    <header class="header">
+      <div class="header_logo">
+        <a
+          class="header_logo-link"
+          href="../index.html"
+          title="Ir a página principal"
+          >Spacelabers</a
+        >
+      </div>
+      <nav class="header_nav">
+        <ul class="header_nav-list">
+          <li>
+            <a class="header_nav-list-link" href="../index.html/#team">Equipo</a>
+          </li>
+          <li>
+            <a class="header_nav-list-link" href="../index.html/#about-us">Quienes somos</a>
+          </li>
+          <li>
+            <a class="header_nav-list-link" href="contact.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-   <header class="header">
-    <div class="header_logo">
-      <a class="header_logo-link" href="../index.html" title="Ir a página principal">Spacelabers</a>
-    </div>
-  
-  
-    <nav class="header_nav">
-      <ul class="header_nav-list">
-        <li>
-          <a class="header_nav-list-link" href="../index.html/#team">Equipo</a>
-        </li>
-        <li>
-          <a class="header_nav-list-link" href="../index.html/#about-us">Quienes somos</a>
-        </li>
-        <li>
-          <a class="header_nav-list-link" href="contact.html">Contacto</a>
-        </li>
-      </ul>
-    </nav>
-  
-  </header>
+    <include src="./partials/contact_hero.html"></include>
 
-  <include src="./partials/contact_hero.html"></include>
+    <include src="./partials/contact_text.html"></include>
 
-  <include src="./partials/contact_text.html"></include>
+    <include src="./partials/form.html"></include>
 
-  <include src="./partials/form.html"></include>
-
-  <include src="./partials/footer.html"></include>
-
-</body>
-
+    <include src="./partials/footer.html"></include>
+  </body>
 </html>
