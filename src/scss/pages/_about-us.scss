@@ -22,7 +22,7 @@
   height: 180px;
   background-size: cover;
   margin: 50px auto;
-  &:hover{
+  &:hover {
     border-radius: 10%;
     transition: all ease 1s;
   }
@@ -43,7 +43,6 @@
   background-image: url("../images/foto-jech.jpeg");
   &:hover {
     background-image: url("../images/foto-jech-hover.jpg");
-   
   }
 }
 
@@ -51,25 +50,20 @@
   background-image: url("../images/foto-carmen.jpg");
   &:hover {
     background-image: url("../images/foto-carmen-hover.jpg");
-    
   }
 }
 
 .mari {
   background-image: url("../images/foto-mari.jpg");
-
   &:hover {
     background-image: url("../images/foto-mari-hover.jpg");
-   
   }
 }
 
 .dandara {
   background-image: url("../images/foto-dand.jpg");
-
   &:hover {
     background-image: url("../images/foto-dand-hover.jpg");
-    
   }
 }
 
@@ -117,12 +111,12 @@
   .article__text {
     width: 75%;
   }
-
   .jech,
-  .carmen,
-  .dandara,
   .mari {
-    ustify-content: space-between;
+    margin-right: 20px;
+  }
+  .carmen, .dandara{
+    margin-left: 20px;
   }
 }
 
