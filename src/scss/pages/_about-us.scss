@@ -3,18 +3,33 @@
 #about-us {
   scroll-margin-top: 105px;
 }
-
+.title {
+  color: $colorBrand-1;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+}
+.section__article {
+  padding-bottom: 45px;
+}
 .article__img {
   width: 180px;
   border: 4px solid $colorBrand-5;
   border-radius: 10px;
-  margin: 10px 0;
+  margin: 50px 29px;
 }
 
 .article__text--names {
   font-family: $fontMain;
+  color: black;
   margin-bottom: 10px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
 }
 
 /*SCSS SOCIAL*/
@@ -49,6 +64,7 @@
   .section__article {
     padding: 10px;
     display: flex;
+    padding-bottom: 60px;
   }
   .section__article:nth-child(even) {
     text-align: left;
@@ -57,17 +73,21 @@
     flex-direction: row-reverse;
     text-align: right;
   }
-}
-//COMENTAR PORCENTAJES IMAGENES//
-.article__img {
-  margin: 0 20px;
-  width: 25%;
-  height: 25%;
-  max-width: 500px;
+  .article__img {
+    width: 207px;
+    height: 207px;
+    margin: 20px 29px;
+  }
 }
 
 @media all and (min-width: 1200px) {
   .container {
     @include containerClassdesktop();
+  }
+  .section__article:nth-child(even) {
+    margin-right: 166px;
+  }
+  .section__article:nth-child(odd) {
+    margin-left: 166px;
   }
 }
