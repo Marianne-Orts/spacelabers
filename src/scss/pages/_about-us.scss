@@ -32,6 +32,60 @@
   line-height: 2.25;
 }
 
+.jech{
+  background-image: url("../images/foto-jech.jpeg");
+  height: 180px;
+  background-size: cover;
+  margin: 50px auto;
+
+  &:hover{
+  background-image: url("../images/foto-jech-hover.jpg");
+  border-radius: 10%;
+  transition: all ease 1s;
+  }
+}
+
+.carmen{
+  background-image: url("../images/foto-carmen.jpg");
+  height: 180px;
+  background-size: cover;
+  margin: 50px auto;
+
+  &:hover{
+  background-image: url("../images/foto-carmen-hover.jpg");
+  border-radius: 10%;
+  transition: all ease 1s;
+  }
+}
+
+.mari{
+  background-image: url("../images/foto-mari.jpg");
+  height: 180px;
+  background-size: cover;
+  margin: 50px auto;
+
+  &:hover{
+  background-image: url("../images/foto-mari-hover.jpg");
+  border-radius: 10%;
+  transition: all ease 1s;
+  }
+}
+
+.dandara{
+  background-image: url("../images/foto-dand.jpg");
+  height: 180px;
+  background-size: cover;
+  margin: 50px auto;
+
+  &:hover{
+  background-image: url("../images/foto-dand-hover.jpg");
+  border-radius: 10%;
+  transition: all ease 1s;
+  }
+}
+
+
+
 /*SCSS SOCIAL*/
 .article__text--social {
   display: inline-flex;
@@ -73,10 +127,15 @@
     flex-direction: row-reverse;
     text-align: right;
   }
+
   .article__img {
     width: 207px;
     height: 207px;
     margin: 20px 29px;
+  }
+
+  .jech{
+    width: 207px;
   }
 }
 
